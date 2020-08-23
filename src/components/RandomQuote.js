@@ -5,8 +5,8 @@ function RandomQuote(props) {
     <div className="quote-text">
       <div id="text">
         <h1>
-          <i class="fa fa-quote-left" aria-hidden="true"></i> {props.quote}{" "}
-          <i class="fa fa-quote-right" aria-hidden="true"></i>
+          <i className="fa fa-quote-left" aria-hidden="true"></i> {props.quote}{" "}
+          <i className="fa fa-quote-right" aria-hidden="true"></i>
         </h1>
       </div>
       <div id="author">
