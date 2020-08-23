@@ -4,8 +4,6 @@
 }
 
 .App {
-  /* font-family: "Lato", sans-serif;
-   */
   font-family: "Lato", sans-serif;
   text-align: center;
   height: 100vh;
@@ -18,21 +16,21 @@
   position: relative;
   top: 30%;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 25px;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
   .Quotes {
-    width: 90vw;
+    width: 85vw;
   }
   .quote-text p {
     margin-left: 30%;
   }
 }
 .quote-text {
-  margin-bottom: 30px;
+  margin-bottom: 2.5rem;
 }
 
 .quote-text p {
@@ -83,4 +81,14 @@
   position: relative;
   top: 30%;
   margin-top: 10px;
+}
+
+.footer a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  cursor: pointer;
 }
